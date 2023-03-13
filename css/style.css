@@ -1,0 +1,303 @@
+/* common css */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body{
+    margin-top: -16px;
+    background-color: #F4F8FF;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
+
+
+.top_navbar{
+    background-color: #0F141F;
+    /* background-color: aqua; */
+    /* height: 78px; */
+}
+
+.logo{
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.logo:hover{
+    color: #FFFFFF;
+}
+
+.color_white{
+    color: #FFFFFF !important;
+}
+
+.text_size_12{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+.top_navbar_ul li{
+    color: #97A4C1;
+    transition: all 0.2s;
+}
+
+.top_navbar_ul li:hover{
+    border-radius: 17px;
+    background-color: #2E3A54;
+}
+
+.top_navbar_ul li a{
+    color: #97A4C1;
+    transition: all 0.4s;
+    text-align: right;
+    margin-right: 5px;
+}
+
+
+.top_navbar_ul li a:hover{
+    color: #FFFFFF;
+}
+
+
+/* Side bar */
+
+.sidebar{
+    width: 240px;
+    height: 920px;
+    /* height: inherit; */
+    background-color: #0F141F; 
+    align-content: center;
+    padding-left: 19px;
+    
+}
+
+.global_button{
+    background-color: #598BFC;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 216px;
+    height: 56px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    border-radius: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    padding-left: 18px;
+    display: flex;
+
+}
+
+.img_3{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 17px;
+  }
+
+.global_margin_top{
+    margin-top: 20px;
+}
+
+.ship{
+    color: #C0D1FCA8;
+    margin: 30px 0px 25px 10px;
+}
+
+.line{
+    background-color: #2E3A54;
+    width: 1px;
+    margin-top: 5px;
+}
+
+.img_1 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    /* padding-right: 10px; */
+  }
+
+
+  .arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    margin-top: 5px;
+    margin-left: 35px; 
+    margin-right: auto; 
+    align-items: end !important;
+  }
+
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .margin_top_4px{
+    margin-top: 4px;
+    width: 56%;
+  }
+
+.accordion {
+    background-color: #2E3A54;
+    color: #F0F2F6;
+    cursor: pointer;
+    padding: 18px;
+    width: 216px;
+    height: 56px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    display: flex;
+
+    border-radius: 17px;
+    margin: 5px 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+
+    /* padding-left: 45px; */
+  }
+  
+  /* .active, .accordion:hover {
+    background-color: #ccc;
+  } */
+  
+  .panel {
+    padding: 0 18px;
+    background-color: #0F141F;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .inside_accordion{
+    background-color: #2E3A54;
+    color: #F0F2F6;
+    cursor: pointer;
+    width: 190px;
+    height: 54px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+
+    border-radius: 17px;
+    margin: 5px 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+    padding-left: 45px;
+
+  }
+
+  .streaming{
+    color: #6D7DA0;
+    padding-top: 3px;
+  }
+
+
+  .rightside{
+
+    margin-left: 50px;
+    height: auto;
+
+}
+
+.t24{
+    font-size: 24px;
+    margin: 20px 0px;
+    font-weight: 700;
+}
+
+.GSR{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+
+.GSR:hover{
+  color: black;
+}
+
+
+.bg{
+  background-image: url(../image/bg.png);
+  width: 267px;
+  height: 150px;
+  border-radius: 5%;
+  border: 1px solid #D8E2FA;
+  margin-bottom: 20px;
+}
+
+.bg:hover{
+  opacity: 0.7;
+  background: #3c72e9;
+}
+
+.bg p{
+ font-size: 12px;
+ color: #757575;
+ margin-top: 15px;
+}
+
+.bg p:hover{
+  color: black;
+ }
+
+.bg h2{
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.bg h2:hover{
+  color: black;
+}
+
+.bg1 h1{
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 15px;
+  padding-left: 70px;
+}
+
+.bg1 h1:hover{
+  color: black;
+}
+
+.Cargo_Gear h1{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.Cargo_Gear h2{
+  
+  font-size: 18px;
+  font-weight: 700;
+}

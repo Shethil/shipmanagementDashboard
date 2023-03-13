@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet"  href="css/bootstrap.css"><p></p>
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/media.css">
+
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+    <title>Shipmanagement-Dashboard</title>
+  </head>
+  <body>
+    
+
+    <!-- header start-->
+
+    <nav class="navbar navbar-expand-xl top_navbar ">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="index.html">SMK LTD.</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon ">Menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav text_size_12 ms-auto mb-2 mb-lg-0 top_navbar_ul">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Cargo Gear</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Breakdown</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Daily Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Cargo Operation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Bunker</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Time Loss</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Port Turn Out</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Ballast Tank</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Demarrage & Despatch</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Voyage Summary</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- header end-->
+
+    <div class="row">
+
+      <div class="col-lg-2 col-md-2">
+        <div class="sidebar">
+        
+          <button class="global_button">
+             <img class="img_3" src="image/3.png" alt="">
+             <p class="global_margin_top"> Global</p>
+          </button>
+          
+    
+    
+          <div class="ship">Individual Ship</div>
+    
+    
+    
+          <button class=" accordion">
+              <img class="img_1" src="image/1.jpeg" alt="">
+              <span class="margin_top_4px">Ansarul Hoque</span>
+              <i class="arrow down"></i>
+          </button>
+          
+          <div class="panel">
+              <div class="line">
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+             </div>
+          </div>
+    
+          <button class="accordion">
+              <img class="img_1"  src="image/1.jpeg" alt="">
+              <span class="margin_top_4px">Imam Uddin</span>
+              <i class="arrow down"></i>
+          </button>
+          <div class="panel">
+              <div class="line">
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+             </div>
+          </div>
+    
+          <button class="accordion">
+              <img class="img_1" src="image/1.jpeg" alt="">
+              <span class="margin_top_4px">Niaz Hossain</span>
+           
+                  <i class="arrow down"></i>
+             
+              
+          </button>
+          <div class="panel">
+              <div class="line">
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+             </div>
+          </div>
+    
+          <button class="accordion">
+              <img class="img_1" src="image/1.jpeg" alt="">
+              <span class="margin_top_4px">Mortaza</span>
+              <i class="arrow down"></i>
+          </button>
+          <div class="panel">
+              <div class="line">
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+             </div>
+          </div>
+    
+          <button class="accordion">
+              <img class="img_1" src="image/1.jpeg" alt="">
+              <span class="margin_top_4px">F.M. Zukov</span>
+              <i class="arrow down"></i>
+          </button>
+          <div class="panel">
+              <div class="line">
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+              <button class="inside_accordion">Jahan Brothers 2 <br> <span class="streaming">Streaming </span></button>
+             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-10 col-md-10 col-xs-10">
+        <div class="rightside">
+          <h1 class="t24">Global Ship Report</h1>
+
+        
+          <div class="row">
+            
+
+            <div class="col-xxl-3 col-lg-3 col-md-5 col-xs-6">
+              <div class="row">
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg">
+                  <div class="GSR"> 
+                    <img  src="image/1.1.png" alt="">
+                    <p> Renewal/Abnormality</p>
+                    <h2>Cargo Gear</h2>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-xs-2">
+                  <div class="bg1">
+                    <h1>12</h1>
+                   </div>
+                   </div>
+                 </div>
+
+            </div>
+
+            <div class="col-xxl-3 col-lg-3 col-md-5">
+              <div class="row">
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg">
+                  <div class="GSR"> 
+                    <img  src="image/2.2.png" alt="">
+                    <p> Renewal/Abnormality</p>
+                    <h2>Daily Excess Consumption</h2>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg1">
+                    <h1>7</h1>
+                   </div>
+                   </div>
+                 </div>
+
+            </div>
+
+            <div class="col-xxl-3 col-lg-3 col-md-5">
+              <div class="row">
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg">
+                  <div class="GSR"> 
+                    <img  src="image/3.3.png" alt="">
+                    <p> Renewal/Abnormality</p>
+                    <h2>Daily Speed Underperformance</h2>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg1">
+                    <h1>5</h1>
+                   </div>
+                   </div>
+                 </div>
+
+            </div>
+
+            
+
+            <div class="col-xxl-3 col-lg-3 col-md-5">
+              <div class="row">
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg">
+                  <div class="GSR"> 
+                    <img  src="image/4.4.png" alt="">
+                    <p> Renewal/Abnormality</p>
+                    <h2>Cargo Loading Report</h2>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg1">
+                    <h1>5</h1>
+                   </div>
+                   </div>
+                 </div>
+
+            </div>
+            
+
+          </div>
+
+      
+
+          <div class="row">
+            
+
+            <div class="col-xxl-3 col-lg-3 col-md-5">
+              <div class="row">
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg">
+                  <div class="GSR"> 
+                    <img  src="image/5.5.png" alt="">
+                    <p> Renewal/Abnormality</p>
+                    <h2>Cargo Discharge Report</h2>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg1">
+                    <h1>4</h1>
+                   </div>
+                   </div>
+                 </div>
+
+            </div>
+
+            <div class="col-xxl-3 col-lg-3 col-md-5">
+              <div class="row">
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg">
+                  <div class="GSR"> 
+                    <img  src="image/6.6.png" alt="">
+                    <p> Renewal/Abnormality</p>
+                    <h2>Total Voyage 
+                      Excess Consumption</h2>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg1">
+                    <h1>6</h1>
+                   </div>
+                   </div>
+                 </div>
+
+            </div>
+
+            <div class="col-xxl-3 col-lg-3 col-md-5">
+              <div class="row">
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg">
+                  <div class="GSR"> 
+                    <img  src="image/7.7.png" alt="">
+                    <p> Renewal/Abnormality</p>
+                    <h2>Upcoming Bunker Demands</h2>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg1">
+                    <h1>11</h1>
+                   </div>
+                   </div>
+                 </div>
+
+            </div>
+
+            <div class="col-xxl-3 col-lg-3 col-md-5">
+              <div class="row">
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg">
+                  <div class="GSR"> 
+                    <img  src="image/8.8.png" alt="">
+                    <p> Renewal/Abnormality</p>
+                    <h2>Crane Breakdown Loss</h2>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="bg1">
+                    <h1>7</h1>
+                   </div>
+                   </div>
+                 </div>
+
+            </div>
+            
+
+          </div>
+
+          <div class="Cargo_Gear">
+
+            <h1 >Cargo Gear</h1>
+
+            <div class="row">
+
+              <div class="col-lg-6">
+                
+
+          <h2>Abnormality Alerts</h2>
+
+          <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+          <script>
+          var xValues = [100,200,300,400,500,600,700,800,900,1000];
+          
+          new Chart("myChart", {
+            type: "line",
+            data: {
+              labels: xValues,
+              datasets: [{ 
+                data: [860,1140,1060,1060,1070,1110,1330,2210,7830,2478],
+                borderColor: "red",
+                fill: false
+              }, { 
+                data: [1600,1700,1700,1900,2000,2700,4000,5000,6000,7000],
+                borderColor: "green",
+                fill: false
+              }, { 
+                data: [300,700,2000,5000,6000,4000,2000,1000,200,100],
+                borderColor: "blue",
+                fill: false
+              }]
+            },
+            options: {
+              legend: {display: false}
+            }
+          });
+          </script>
+              </div>
+
+              <div class="col-lg-6">
+                <h2>Breakdown History</h2>
+                <canvas id="horizontalBar"></canvas>
+                <script>
+                  new Chart(document.getElementById("horizontalBar"), {
+                    "type": "horizontalBar",
+                    "data": {
+                      "labels": ["Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Grey"],
+                      "datasets": [{
+                        "label": "Dataset",
+                        "data": [22, 33, 55, 12, 86, 23, 14],
+                        "fill": false,
+                        "backgroundColor": ["rgba(255, 99, 132, 0.2)", "rgba(255, 159, 64, 0.2)",
+                          "rgba(255, 205, 86, 0.2)", "rgba(75, 192, 192, 0.2)", "rgba(54, 162, 235, 0.2)",
+                          "rgba(153, 102, 255, 0.2)", "rgba(201, 203, 207, 0.2)"
+                        ],
+                        "borderColor": ["rgb(255, 99, 132)", "rgb(255, 159, 64)", "rgb(255, 205, 86)",
+                          "rgb(75, 192, 192)", "rgb(54, 162, 235)", "rgb(153, 102, 255)", "rgb(201, 203, 207)"
+                        ],
+                        "borderWidth": 1
+                      }]
+                    },
+                    "options": {
+                      "scales": {
+                        "xAxes": [{
+                          "ticks": {
+                            "beginAtZero": true
+                          }
+                        }]
+                      }
+                    }
+                  });
+                </script>
+              </div>
+            </div>
+
+          
+
+
+          
+          
+          </div>
+          
+         
+          
+
+          </div>
+          
+     
+          
+
+        </div>
+
+      </div>
+        
+      </div>
+    </div>
+
+  
+    
+
+  
+
+  <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>
+
+    
+
+    <!--JS links -->
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    
+  </body>
+</html>
